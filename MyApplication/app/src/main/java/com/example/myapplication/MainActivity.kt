@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.app.AlertDialog
 import android.os.Bundle
 import android.content.Intent
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
@@ -20,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         botaoCalculadora.setOnClickListener{
             var intent = Intent(this, Calculadora::class.java)
             startActivity(intent)
-
         }
 
         val botaoLogin : Button = findViewById(R.id.TelaDeLogin)
@@ -46,5 +46,11 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+    //O fun também funciona assim como o setOnClickListener
+    fun Lista(view: View)
+    {
+        var intent = Intent(this, Lista::class.java)
+        startActivity(intent)
     }
 }
