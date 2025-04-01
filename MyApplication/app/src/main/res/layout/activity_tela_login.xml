@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/ite_logo_oficial" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#229A00"
+            android:layout_marginBottom="10dp"
+            android:text="Faça seu Login em nossa plataforma" />
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint='Digite o seu login'
+            android:backgroundTint="#229A00"/>
+
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint='Digite a sua senha'
+            android:inputType="textPassword"
+            android:backgroundTint="#229A00"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/botaoLogar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius='0dp'
+                android:text="Logar"
+                android:backgroundTint="#229A00"
+                android:layout_marginRight="7dp" />
+
+            <Button
+                android:id="@+id/botaoLimpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cornerRadius='0dp'
+                android:text="Limpar"
+                android:backgroundTint="#FF0000"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#229A00"
+            android:layout_marginTop="10dp"
+            android:text="Crie sua conta agora mesmo" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:text="Criar conta"
+            android:backgroundTint="#229A00" />
+    </LinearLayout>
+
+</ScrollView>

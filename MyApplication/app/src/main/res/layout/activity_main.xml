@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portfólio em Android Studio"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#8B0000"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#8B0000"
+        android:text="Calculadora"
+        app:cornerRadius="5dp"
+        android:id="@+id/Calculadora"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8B0000"
+        android:text="Tela de Login"
+        app:cornerRadius="5dp"
+        android:id="@+id/TelaDeLogin"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8B0000"
+        android:text="Formulário Envio de Dados"
+        app:cornerRadius="5dp"
+        android:id="@+id/FormEnvio"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8B0000"
+        android:text="Clone"
+        app:cornerRadius="5dp"
+        android:id="@+id/Clone"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8B0000"
+        android:text="Lista"
+        app:cornerRadius="5dp"
+        android:id="@+id/Lista"
+        android:onClick="Lista"/>
+
+</LinearLayout>

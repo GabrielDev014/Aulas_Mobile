@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telaLoginRelativeLayout">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ite_logo_oficial" />
+
+    <TextView
+        android:id="@+id/labelLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagem"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Faça seu Login em nossa plataforma"
+        android:textColor="#229A00"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelLogin"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#229A00"
+        android:hint='Digite o seu login' />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#229A00"
+        android:hint='Digite a sua senha'
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/botaoLogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#229A00"
+        android:text="Logar"
+        android:layout_below="@+id/senha"
+        android:layout_marginLeft="80dp"
+        app:cornerRadius='0dp' />
+
+    <Button
+        android:id="@+id/botaoLimpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:text="Limpar"
+        android:layout_below="@+id/senha"
+        android:layout_toRightOf="@+id/botaoLogar"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        app:cornerRadius='0dp' />
+
+
+    <TextView
+        android:id="@+id/criarConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Crie sua conta agora mesmo"
+        android:textColor="#229A00"
+        android:layout_below="@+id/botaoLimpar"
+        android:layout_centerInParent="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#229A00"
+        android:layout_below="@+id/criarConta"
+        android:layout_centerInParent="true"
+        android:text="Criar conta" />
+
+</RelativeLayout>
