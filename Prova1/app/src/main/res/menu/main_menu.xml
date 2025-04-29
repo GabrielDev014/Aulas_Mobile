@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Olho" android:icon="@drawable/olho" android:id="@+id/olho" app:showAsAction="always"/>
+    <item android:title="Interrogacao" android:icon="@drawable/interrogacao" android:id="@+id/interrogacao" app:showAsAction="always"/>
+    <item android:title="Mensagem" android:icon="@drawable/mensagens" android:id="@+id/mensagem" app:showAsAction="ifRoom"/>
+
+</menu>

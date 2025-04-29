@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conta"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="R$ 35.000"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botaoPix"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:paddingBottom="13dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawableBottom="@drawable/pix"
+            app:cornerRadius="90dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:paddingBottom="13dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawableBottom="@drawable/pagamento"
+            app:cornerRadius="90dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:drawableBottom="@drawable/cima"
+            android:paddingBottom="11dp"
+            android:backgroundTint="#D3D3D3"
+            app:cornerRadius="90dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:drawableBottom="@drawable/baixo"
+            android:paddingBottom="12dp"
+            android:backgroundTint="#D3D3D3"
+            app:cornerRadius="90dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="18dp"
+        android:text="Meus Cartões"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:backgroundTint="#D3D3D3"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/cartao_credito"
+        app:cornerRadius="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:text="Conheça Nubank Vida: um seguro simples e que cabe no bolso"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:backgroundTint="#D3D3D3"
+        android:textColor="#000000"
+        app:cornerRadius="5dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="29dp"
+        android:background="@drawable/cartao_credito"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cartão de Crédito"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="16dp"
+        android:text="Fatura atual"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 8.234,87"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="16dp"
+        android:text="Limite disponível de R$ 15.500,00"
+        android:textSize="14sp"/>
+
+</LinearLayout>

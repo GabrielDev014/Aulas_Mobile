@@ -69,4 +69,24 @@
         android:id="@+id/Lista"
         android:onClick="Lista"/>
 
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8B0000"
+        android:text="Lista Fixa"
+        app:cornerRadius="5dp"
+        android:onClick="ListaFixa"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8B0000"
+        android:text="Carregamento"
+        app:cornerRadius="5dp"
+        android:onClick="Carregamento"/>
+
 </LinearLayout>

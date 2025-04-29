@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Carregamento"
+            android:exported="false" />
+        <activity
+            android:name=".ListaFixa"
+            android:exported="false" />
+        <activity
             android:name=".TelaLoginRelativeLayout"
             android:exported="false" />
         <activity
@@ -42,6 +48,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

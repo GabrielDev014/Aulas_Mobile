@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AreaPix">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Área Pix"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="5dp"
+        android:text="Envie e receba pagamentos a qualquer hora e dia da semana, sem pagar nada por isso."
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/botaoTransferir"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawableBottom="@drawable/transferir"
+            android:paddingBottom="14dp"
+            app:cornerRadius="90dp" />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawableBottom="@drawable/programar"
+            android:paddingBottom="14dp"
+            app:cornerRadius="90dp" />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawableBottom="@drawable/celular"
+            android:paddingBottom="14dp"
+            app:cornerRadius="90dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="14dp"
+            android:text="Transferir" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Ler QR Code" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawableBottom="@drawable/pix"
+            android:paddingBottom="13dp"
+            app:cornerRadius="90dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawableBottom="@drawable/cobrar"
+            android:paddingBottom="14dp"
+            app:cornerRadius="90dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="#D3D3D3"
+            android:drawableBottom="@drawable/depositar"
+            android:paddingBottom="14dp"
+            app:cornerRadius="90dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="27dp"
+            android:text="Pix Copia" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="13dp"
+            android:text="Cobrar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:text="Depositar" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Preferências"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="65dp"
+        android:text="Registrar ou trazer chaves"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="65dp"
+        android:text="Configurar pix"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
