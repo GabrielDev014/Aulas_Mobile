@@ -12,6 +12,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:background="@drawable/fundo_card"
         android:layout_margin="20dp">
 
@@ -36,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/fundo_card"
+        android:orientation="horizontal"
         android:layout_margin="20dp">
 
         <ImageView
@@ -59,6 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/fundo_card"
+        android:orientation="horizontal"
         android:layout_margin="20dp">
 
         <ImageView
@@ -84,6 +87,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/fundo_card"
+        android:orientation="horizontal"
         android:layout_margin="20dp">
 
         <ImageView

@@ -12,7 +12,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Olá mundo"
-        android:textSize="26sp"/>
+        android:gravity="center"
+        android:text="Carregando imagens dinamicamente"
+        android:textSize="26sp"
+        android:textColor="#FF0000"/>
+
+    <ImageView
+        android:id="@+id/emirates"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        app:icon="@drawable/carregar_imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF0000"
+        android:layout_gravity="center"
+        android:text="CARREGAR IMAGEM"
+        app:cornerRadius="5dp"
+        android:onClick="CarregarImagem"/>
 
 </LinearLayout>
